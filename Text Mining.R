@@ -13,7 +13,6 @@ library("textdata")
 
 # Reading and understanding the Data
 
-setwd("D:/Fall'21 - UIC/IDS 572 - Data Mining/Assignments/Assignment 4/yelpRestaurantReviews_sample_s21b")
 data<-read.csv2("yelpRestaurantReviews_sample_s21b.csv")
 glimpse(data)
 length((unique(data$business_id)))
