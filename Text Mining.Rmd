@@ -1,7 +1,6 @@
 ---
 title: "Text Mining"
-author: "Zohaib Sheikh"
-date: "05/11/2021"
+author: "Kushal Adity"
 output: html_document
 ---
 
@@ -21,7 +20,6 @@ library("textdata")
 ```
 **Reading the Data**
 ```{r warning=FALSE,message=FALSE, error=FALSE}
-setwd("D:/Fall'21 - UIC/IDS 572 - Data Mining/Assignments/Assignment 4/yelpRestaurantReviews_sample_s21b")
 data<-read.csv2("yelpRestaurantReviews_sample_s21b.csv")
 ```
 **Understanding the Data**
